@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1>Text și Fonturi</h1>
+    <p style="color: blue;"><strong>color:</strong> Schimbă culoarea textului</p>
+    <!color: red; sau color: #00FF00;>
+
+    <p style="font-family:cursive"><strong>font-family:</strong> Setează tipul fontului</p>
+    <!font-family: Arial, sans-serif;>
+
+    <p style="font-size: 25px;"><strong>font-size:</strong> Dimensiunea textului</p>
+    <!font-size: 20px; sau font-size: 150%;>
+
+    <p style="font-style: italic;"><strong>font-style:</strong> Folosit de obicei pentru italic</p>
+    <!font-style: italic;>
+
+    <p style="font-weight: bold;"><strong>font-weight:</strong> Îngroșarea textului</p>
+    <!font-weight: bold;>
+
+    <p style="text-align: right;"><strong>text-align:</strong> Alinierea textului</p>
+    <!left, right, center, justify>
+
+    <p style="text-decoration: underline;"><strong>text-decoration:</strong> Cel mai des folosit pentru a scoate sublinierile de la link-uri sau a adăuga sublinieri</p>
+    <!underline, none>
+    <br>
+        <h1>Background</h1>
+    <p style="background-color: aqua;"><strong>background-color:</strong> Culoarea de fundal a unui element sau a întregii pagini</p>
+    <!background-color: yellow;>
+
+    <p style="background-image: url(welcome.jpg); color:beige"><strong>background-image:</strong> Inserarea unei imagini de fundal</p>
+    <!background-image: url('imagine.jpg');>
+    <br>
+
+        <h1>Dimensiuni și Modelul Box</h1>
+    <p   style="width: 90px; height: 90px;"><strong>width și height</strong>: Lățimea și înălțimea</p>
+    <!width: 500px; sau width: 100%;>
+
+    <p style="border: 2px solid red;"><strong>border:</strong> Setează bordura dintr-o singură linie</p>
+    <!border: 2px solid black;>
+
+    <p style="border: 2px dotted green;">Poate fi detaliat: <strong>border-width, border-style, border-color</strong></p>
+    <!solid, dotted, dashed>
+
+    <p style="margin: 50px; border: 2px solid red;"><strong>margin:</strong> Spațiul din exteriorul bordurii</p>
+    <!margin: 10px;>
+
+    <p style="padding: 50px; border: 2px solid red;"><strong>padding:</strong> Spațiul din interiorul bordurii, între conținut și margine</p>
+    <!padding: 5px;>
+    <br><br>
+
+    <h1>CSS id, class</h1>
+    <h3>Element</h3>
+    <p id="elem">element: p/img/h2...</p>
+    <p>css: p{<br>           color: purple<br>}</p>
+    <br>
+    <h3>Class</h3>
+    <div class="haha">
+    <p id="clasa">html: class="haha"</p>
+    <p>css: <strong>.</strong>haha{<br>                 color: red<br>}</p>
+    </div>
+    <br>
+    <h3>Id</h3>
+    <div>
+    <p id="titlu">html: id="titlu" </p>
+    <p>css: <strong>#</strong>titlu{<br>                 color: green;<br>}</p>
+    <p>se foloseste doar pe un element, trebuie sa fie unic</p>
+    </div>
+    <p>#id > .class > element</p>
+    <br><br><br><br>
+
+    <h1>Ce Plas Plas</h1><br><br>
+    <h2>Tipuri de variabile în C++</h2>
+
+<ol>
+    <p>signed (normal): negativ si pozitiv, valori mai mici;  unsigned: 0 si pozitive, vslori mai mari (duble)</p>
+    <li>
+        <b>int</b> → număr întreg<br>
+        Exemplu: <code>int varsta = 18; -2,147,483,648 | 2,147,483,647</code>
+    </li>
+
+    <li>
+        <b>short</b> → număr întreg mic<br>
+        Exemplu: <code>short x = 100; -32,768 | 32,767</code>
+    </li>
+
+    <li>
+        <b>long</b> → număr întreg mare<br>
+        Exemplu: <code>long populatie = 1000000; -2,147,483,648 | 2,147,483,647</code>
+    </li>
+
+    <li>
+        <b>long long</b> → număr foarte mare<br>
+        Exemplu: <code>long long stele = 999999999; -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807</code>
+    </li>
+
+    <li>
+        <b>float</b> → număr zecimal<br>
+        Exemplu: <code>float nota = 9.5f; -3.4e38 | 3.4e38</code>
+    </li>
+
+    <li>
+        <b>double</b> → număr zecimal mai precis<br>
+        Exemplu: <code>double pi = 3.141592; -1.7e308 | 1.7e308</code>
+    </li>
+
+    <li>
+        <b>long double</b> → precizie foarte mare<br>
+        Exemplu: <code>long double x = 3.1415926535; -1.1e4932 | 1.1e4932</code>
+    </li>
+
+    <li>
+        <b>char</b> → un singur caracter<br>
+        Exemplu: <code>char litera = 'A'; -128 | 127</code>
+    </li>
+
+    <li>
+        <b>string</b> → text<br>
+        Exemplu: <code>string nume = "Dragos";</code>
+    </li>
+
+    <li>
+        <b>bool</b> → adevărat sau fals<br>
+        Exemplu: <code>bool online = true;</code>
+    </li>
+
+    <li>
+        <b>unsigned int</b> → doar valori pozitive<br>
+        Exemplu: <code>unsigned int bani = 500;</code>
+    </li>
+
+    <li>
+        <b>const</b> → valoare constantă<br>
+        Exemplu: <code>const int zile = 7;</code>
+    </li>
+
+    <li>
+        <b>auto</b> → tip detectat automat<br>
+        Exemplu: <code>auto pret = 19.99;</code>
+    </li>
+
+    <li>
+        <b>array</b> → listă de valori<br>
+        Exemplu: <code>int note[3] = {10, 9, 8};</code>
+    </li>
+
+    <li>
+        <b>pointer</b> → adresa unei variabile<br>
+        Exemplu: <code>int* p = &x;</code>
+    </li>
+
+    <li>
+        <b>nullptr</b> → pointer gol<br>
+        Exemplu: <code>int* p = nullptr;</code>
+    </li>
+
+    <li>
+        <b>reference</b> → alias pentru o variabilă<br>
+        Exemplu: <code>int& r = x;</code>
+    </li>
+
+    <li>
+        <b>enum</b> → valori fixe<br>
+        Exemplu: <code>enum Zi {Luni, Marti, Miercuri};</code>
+    </li>
+
+    <li>
+        <b>struct</b> → grup de variabile<br>
+        Exemplu:
+        <pre><code>struct Elev {
+    string nume;
+    int varsta;
+};</code></pre>
+    </li>
+</ol>
+
+    <br><br>
+    <h1>Clase retea | ralculator</h1>
+    <img src="clase.jpg" alt="clase" style="width: 90%; display:block; margin: 0 auto;">
+    <p>O adresă numerică este formată din 32 de cifre binare (4 octeţi)</p>
+    <br><br><br><br>
+
+    <h1>Adrese</h1>
+    <img src="retea1.png" alt=""style="width: 75%; display:block; margin: 0 auto;">
+    <p>Conectarea la un calculator central, de mare capacitate, a mai multe terminale</p>
+    <p>Fiabilitate redusă şi utilizarea ineficientă a resurselor de calcul</p>
+    <br>
+    <p>Reţea de calculatoare = o mulţime de calculatoare ce pot schimba informaţii prin intermediul unei structuri de comunicaţie.</p>
+    
+    <br><br>
+    <img src="retea2.png" alt=""style="width: 75%; display:block; margin: 0 auto;">
+    <img src="retea3.png" alt=""style="width: 90%; display:block; margin: 0 auto;">
+    <p>Topologii de reţea:a – stea; b – inel; c – magistrală; d – distribuită</p>
+    <p>Topologie a reţelei = configuraţia geometrică a legăturilor dintre calculatoare.</p>
+    <img src="retea4.png" alt=""style="width: 80%; display:block; margin: 0 auto;">
+    <p style="text-align: center; font-weight: bold; font-size: larger;">c1.lic.ch.md | c5.lme.ch.md | c9.lic.ch.md</p>
+
+
+
+
+
+
+
+</body>
